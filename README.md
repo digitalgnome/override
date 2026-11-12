@@ -40,20 +40,6 @@ The plugin downloads
 (cached for 5 minutes) and each pack from `store/packs/` the same way. If the
 Deck is offline, it uses the copy bundled in `defaults/`.
 
-### Publishing a new or updated cheat pack
-
-1. Create or edit `store/packs/<id>.json` (the file name must equal the pack `id`).
-   When updating, bump `"version"` so users see **Update**.
-2. Run `python3 tools/build_store.py`. It validates the packs (rejects cheats
-   without addresses) and regenerates `store/index.json` and `defaults/`.
-3. Commit and push:
-   ```bash
-   git add store defaults
-   git commit -m "Add <game> cheats"
-   git push
-   ```
-   Within ~5 minutes the pack appears in **Get Cheats** (tap *Refresh store*).
-
 ## Cheat pack format
 
 ```json
