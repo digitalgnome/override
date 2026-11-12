@@ -29,8 +29,6 @@ override/
 ├── defaults/             # offline copy of the store bundled in the plugin (generated)
 ├── examples/packs/       # unfinished packs (no memory addresses yet)
 ├── tools/build_store.py  # validates packs, rebuilds store/index.json + defaults/
-├── deploy.sh             # build + install on your Deck
-├── diagnose.sh           # collect logs from the Deck
 ├── plugin.json           # Decky metadata (api_version 1, root flag)
 └── package.json
 ```
@@ -119,14 +117,14 @@ pnpm i
 pnpm build                 # or: node_modules/.bin/rollup -c rollup.config.js
 ```
 
-Deploying to your Deck (SSH enabled, `passwd` set):
+Installing on a Deck (SSH enabled, `passwd` set). Decky's plugin folder is
+root-owned, so copy to your home folder first:
 
 ```bash
-echo deck@<DECK_IP> > .deck-target   # once; git-ignored
-./deploy.sh                          # build, copy, install, restart Decky
-./diagnose.sh                        # if something breaks: files + logs → diagnose-output.txt
+rsync -az --delete --exclude node_modules --exclude src --exclude .git \
+  --exclude store --exclude examples --exclude tools . deck@<DECK_IP>:~/override/
+ssh -t deck@<DECK_IP> 'sudo rm -rf ~/homebrew/plugins/override \
+  && sudo cp -r ~/override ~/homebrew/plugins/ && sudo systemctl restart plugin_loader'
 ```
-
-Run `ssh-copy-id deck@<DECK_IP>` once to skip the SSH password prompt.
 
 Backend logs on the Deck: `~/homebrew/logs/override/`.
