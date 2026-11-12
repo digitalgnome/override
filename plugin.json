@@ -2,7 +2,7 @@
   "$schema": "https://deckbrew.xyz/schemas/plugin.json",
   "name": "Override",
   "author": "digitalgnome",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Download cheat packs for your games and toggle or set cheats from the Quick Access menu.",
   "flags": [
     "root"

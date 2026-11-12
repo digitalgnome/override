@@ -1,6 +1,6 @@
 {
   "name": "override",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "A Decky Loader plugin for Steam Deck",
   "type": "module",
   "scripts": {
