@@ -1,0 +1,28 @@
+{
+  "id": "celeste-cheats",
+  "gameName": "Celeste",
+  "steamAppId": "504230",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Stamina, invincibility, and chapter unlocks.",
+  "cheats": [
+    {
+      "id": "infinite-stamina",
+      "name": "Infinite Stamina",
+      "description": "Climb forever.",
+      "type": "toggle"
+    },
+    {
+      "id": "invincible",
+      "name": "Invincibility",
+      "description": "Hazards don't kill Madeline.",
+      "type": "toggle"
+    },
+    {
+      "id": "unlock-chapters",
+      "name": "Unlock All Chapters",
+      "description": "Open every chapter.",
+      "type": "toggle"
+    }
+  ]
+}

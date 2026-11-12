@@ -1,0 +1,38 @@
+{
+  "id": "hades-cheats",
+  "gameName": "Hades",
+  "steamAppId": "1145360",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Infinite health and resource cheats.",
+  "cheats": [
+    {
+      "id": "infinite-health",
+      "name": "Infinite Health",
+      "description": "Zagreus takes no damage.",
+      "type": "toggle"
+    },
+    {
+      "id": "set-darkness",
+      "name": "Set Darkness",
+      "description": "Amount of Darkness.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 5000,
+      "min": 0,
+      "max": 99999,
+      "step": 100
+    },
+    {
+      "id": "set-gemstones",
+      "name": "Set Gemstones",
+      "description": "Amount of Gemstones.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 1000,
+      "min": 0,
+      "max": 99999,
+      "step": 100
+    }
+  ]
+}

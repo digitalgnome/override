@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "id": "final-fantasy-resonance-cheats",
+      "gameName": "Final Fantasy Resonance",
+      "steamAppId": "3259780",
+      "author": "digitalgnome",
+      "description": "Set your Gil.",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/digitalgnome/override/main/store/packs/final-fantasy-resonance-cheats.json",
+      "cheatCount": 1
+    }
+  ],
+  "lastUpdated": "2026-11-12T02:51:10Z"
+}

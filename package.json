@@ -1,0 +1,21 @@
+{
+  "name": "override",
+  "version": "1.0.0",
+  "description": "A Decky Loader plugin for Steam Deck",
+  "type": "module",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c rollup.config.js",
+    "build:watch": "node_modules/.bin/rollup -c rollup.config.js --watch"
+  },
+  "dependencies": {
+    "@decky/api": "^1.0.2",
+    "@decky/ui": "^4.7.5",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@decky/rollup": "^1.0.0",
+    "@types/react": "^19.3.0",
+    "rollup": "^4.68.2",
+    "typescript": "^5.3.3"
+  }
+}

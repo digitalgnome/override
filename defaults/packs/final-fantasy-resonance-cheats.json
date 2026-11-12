@@ -1,0 +1,31 @@
+{
+  "id": "final-fantasy-resonance-cheats",
+  "gameName": "Final Fantasy Resonance",
+  "steamAppId": "3259780",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Set your Gil.",
+  "cheats": [
+    {
+      "id": "set-gil",
+      "name": "Set Gil",
+      "description": "Sets your Gil. Leave and reopen a menu to see the change.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 99999,
+      "min": 0,
+      "max": 9999999,
+      "step": 1000,
+      "addresses": [
+        {
+          "size": 4,
+          "pointers": [
+            "FFRS-Win64-Shipping.exe+0x9A6F220 -> 0x7b8 -> 0x60 -> 0x28",
+            "FFRS-Win64-Shipping.exe+0x9F9E500 -> 0x338 -> 0x200 -> 0x28",
+            "FFRS-Win64-Shipping.exe+0x9FEE9B8 -> 0xf8 -> 0x178 -> 0x200 -> 0x28"
+          ]
+        }
+      ]
+    }
+  ]
+}

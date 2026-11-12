@@ -1,0 +1,33 @@
+{
+  "id": "stardew-valley-cheats",
+  "gameName": "Stardew Valley",
+  "steamAppId": "413150",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Gold, energy, and friendship cheats.",
+  "cheats": [
+    {
+      "id": "set-gold",
+      "name": "Set Gold",
+      "description": "Set your gold to this amount.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 100000,
+      "min": 0,
+      "max": 9999999,
+      "step": 1000
+    },
+    {
+      "id": "infinite-energy",
+      "name": "Infinite Energy",
+      "description": "Energy never drains.",
+      "type": "toggle"
+    },
+    {
+      "id": "max-friendship",
+      "name": "Max Friendship",
+      "description": "All villagers at max hearts.",
+      "type": "toggle"
+    }
+  ]
+}

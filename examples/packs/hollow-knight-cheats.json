@@ -1,0 +1,39 @@
+{
+  "id": "hollow-knight-cheats",
+  "gameName": "Hollow Knight",
+  "steamAppId": "367520",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Soul, geo, god mode, and charm cheats.",
+  "cheats": [
+    {
+      "id": "infinite-soul",
+      "name": "Infinite Soul",
+      "description": "Soul vessel stays full.",
+      "type": "toggle"
+    },
+    {
+      "id": "set-geo",
+      "name": "Set Geo",
+      "description": "Amount of Geo.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 9999,
+      "min": 0,
+      "max": 99999,
+      "step": 100
+    },
+    {
+      "id": "god-mode",
+      "name": "God Mode",
+      "description": "Take no damage.",
+      "type": "toggle"
+    },
+    {
+      "id": "all-charms",
+      "name": "All Charms",
+      "description": "Unlock every charm.",
+      "type": "toggle"
+    }
+  ]
+}

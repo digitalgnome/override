@@ -1,0 +1,44 @@
+{
+  "id": "dave-the-diver-cheats",
+  "gameName": "Dave the Diver",
+  "steamAppId": "1868140",
+  "version": "1.0.0",
+  "author": "digitalgnome",
+  "description": "Oxygen, gold, and harpoon cheats.",
+  "cheats": [
+    {
+      "id": "unlimited-oxygen",
+      "name": "Unlimited Oxygen",
+      "description": "Oxygen never drops.",
+      "type": "toggle"
+    },
+    {
+      "id": "set-gold",
+      "name": "Set Gold",
+      "description": "Amount of gold coins.",
+      "type": "value",
+      "valueType": "integer",
+      "defaultValue": 50000,
+      "min": 0,
+      "max": 9999999,
+      "step": 1000
+    },
+    {
+      "id": "speed-multiplier",
+      "name": "Swim Speed",
+      "description": "Swim speed multiplier.",
+      "type": "value",
+      "valueType": "float",
+      "defaultValue": 1.5,
+      "min": 0.5,
+      "max": 5.0,
+      "step": 0.1
+    },
+    {
+      "id": "infinite-harpoon",
+      "name": "Infinite Harpoon",
+      "description": "Harpoon never runs out.",
+      "type": "toggle"
+    }
+  ]
+}
