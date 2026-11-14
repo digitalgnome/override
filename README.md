@@ -1,5 +1,7 @@
 # Override: Decky Loader plugin
 
+[![version](https://img.shields.io/github/v/tag/digitalgnome/override?label=version&sort=semver)](https://github.com/digitalgnome/override/tags) [![Steam Deck](https://img.shields.io/badge/Steam%20Deck-Decky%20Loader-1A9FFF?logo=steamdeck&logoColor=white)](https://decky.xyz/) [![Python](https://img.shields.io/badge/backend-Python-3776AB?logo=python&logoColor=white)](main.py) [![TypeScript](https://img.shields.io/badge/frontend-TypeScript-3178C6?logo=typescript&logoColor=white)](src) [![last commit](https://img.shields.io/github/last-commit/digitalgnome/override)](https://github.com/digitalgnome/override/commits/main)
+
 Pick a game, download its cheat pack from an online store, and toggle cheats or
 set values (like Gil) from the Steam Deck's Quick Access menu.
 
